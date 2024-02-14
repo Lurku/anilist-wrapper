@@ -24,10 +24,10 @@ yarn add anilist-wrapper
 import { Client } from "anilist-wrapper";
 
 //Public usage of the API (only queries)
-const AniListClient = new Client();
+const AnilistClient = new Client();
 
 //Private usage of the API (mutations and queries regarding user's data)
-const AuthedAniListClient = new Client("your_access_token");
+const AuthedAnilistClient = new Client("your_access_token");
 ```
 
 ## Queries
